@@ -149,14 +149,14 @@
         width:100%;
     }
     .center{
-        width:270px;
+        width:376px;
         height:360px;
 
 
     }
      #day{
     
-        width:70px;
+        width:90px;
         padding: 7px;
         height:40px;
         font-size: 15px;
@@ -165,7 +165,7 @@
      }
 
        #year{
-        width:70px;
+        width:90px;
         font-size:17px;
         height:40px;
         font-size: 15px;
@@ -174,7 +174,7 @@
        }
         
        #month{
-        width:70px;
+        width:90px;
         font-size:13px;
         height:40px;
         font-size: 15px;
@@ -183,14 +183,14 @@
         .data{
     
 
-            font-size: small;
+            font-size: 19px;
             justify-content: space-evenly;
             height: 80px;
         }
               
         .circle{
             position: absolute;
-            left:105px;
+            left:160px;
             top:17px;
              height: 55px;
              width:55px;
@@ -198,7 +198,7 @@
         }
         .line{
             position: absolute;
-            width:250px;
+            width:360px;
             top:47px;
 
         }
@@ -211,11 +211,11 @@
             position: absolute;
             top:80px;
             margin-left: 20px;
-            font-size: 40px;
+            font-size: 55px;
             font-style: italic;
         }
         .error1, .error2, .error3{
-            font-size: 9px;
+            font-size: 10px;
         }
 
 

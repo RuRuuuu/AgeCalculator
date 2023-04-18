@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Frontend Mentor | Age calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3a3e96a8e3.js" crossorigin="anonymous"></script>
+    
+       <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>   
+  <main class="centered">
+         <div class="center">
+
+    <form class="data">
+      <div class="labe">
+        <label for="day" class="labell" id="label1">DAY</label><br>
+        <input type="text" class="data1" id="day" name="day" class="in"  placeholder="DD" minlength="1" maxlength="2" required><br>
+        <span class="error1"></span>
+      </div>
+
+      <div class="labe"><label class="label2" for="month" id="label2">MONTH</label><br>
+      <input type="text" class="data1" id="month" name="month" placeholder="MM" minlength="1" maxlength="2" required>
+    <br><span class="error2"></span></div>
+      
+
+      <div class="labe"><label for="year" id="label3">YEAR</label><br>
+      <input type="text" class="data1" id="year" name="year"  placeholder="YYYY" minlength="1" maxlength="4" required>
+    <br><span class="error3"></span></div>
+      
+        
+      </form>
+ 
+
+
+    <div class="linex">
+    
+      <div class="line"></div>
+      <div class="circle"><button class="btn"><i class="fa-solid fa-arrow-down fa-beat"></i></button></div>
+    </div>
+       
+
+
+    <div class="div-para">
+     <p id="para1"><span class="hidden">-</span> <span class="hidden">-</span><span class="datee">years</span><br>
+      <span class="hidden">-</span> <span class="hidden">-</span><span class="datee">months</span><br>
+      <span class="hidden">-</span> <span class="hidden">-</span><span class="datee">days</span></p>
+    </div>
+  
+       
+  </div>  
+  </main>
+
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+    
+  </div>   -->
+
+
+
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+     <script src="script.js"></script>
+</body>
+</html>

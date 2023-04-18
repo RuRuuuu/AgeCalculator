@@ -142,7 +142,7 @@
    
 
     /* responsiveness for mobile*/
-   @media(max-width : 375px){
+   @media(max-width : 576px){
     
     .centered{
     
